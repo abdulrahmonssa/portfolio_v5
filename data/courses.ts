@@ -36,7 +36,7 @@ export const courses = [
     provider: 'ALX Africa',
     period: '2024-09',
     description:
-      'A 6-week course focusing on AI and machine learning concepts and AI tools, how to use them, how did they work, and how to works with them.',
+      'A 6-week course covering AI and machine learning concepts, how AI tools work, and how to use them effectively.',
     status: 'Completed',
   },
   {

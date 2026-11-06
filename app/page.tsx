@@ -36,13 +36,13 @@ export default function Home() {
       <div className="absolute top-[40%] right-[-10%] w-[30%] h-[30%] bg-accent/20 rounded-full blur-[150px] opacity-20 pointer-events-none" />
 
       <Hero />
+      <Projects />
       <Reveal>
         <About />
       </Reveal>
       <Reveal>
         <TechStack />
       </Reveal>
-      <Projects />
       <Reveal>
         <ContactCTA />
       </Reveal>

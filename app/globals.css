@@ -433,10 +433,10 @@ button {
 
 .reveal {
   opacity: 0;
-  transform: translateY(28px);
+  transform: translateY(16px);
   transition:
-    opacity 700ms ease-out,
-    transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+    opacity 900ms cubic-bezier(0.33, 1, 0.68, 1),
+    transform 950ms cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 .reveal-visible {

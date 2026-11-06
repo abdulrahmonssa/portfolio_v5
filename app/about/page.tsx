@@ -305,7 +305,7 @@ export default function AboutPage() {
                 <div className="flex items-center gap-4">
                   <FaGraduationCap className="text-xl opacity-80" />
                   <span className="font-semibold">
-                    Bachelor of Management Information Systems
+                    ALX & ITI trained — see Education below
                   </span>
                 </div>
                 <div className="flex items-center gap-4">
@@ -442,9 +442,9 @@ export default function AboutPage() {
                       View Credential
                     </Button>
                   ) : (
-                    <Button disabled variant="outline" size="sm">
-                      Credential Unavailable
-                    </Button>
+                    <p className="text-sm text-muted-foreground">
+                      No public credential link
+                    </p>
                   )}
                 </div>
               </article>
